@@ -3,6 +3,12 @@
 ข้อสอบปลายภาครายวิชา 02739452 รวมข้อมูลจาก GeoNames, Worldometer และ World Bank
 ด้วย Apache Airflow ลง PostgreSQL และอ่านฐานข้อมูลโดยตรงด้วยเว็บ Streamlit
 
+มี 701 แถวจาก 3 แหล่งข้อมูล 
+- GeoNames: 250 แถว
+- Worldometer: 234 แถว
+- World Bank: 217 แถว
+เมื่อรวมและตัดรายการซ้ำข้ามแหล่ง เหลือ 251 แถว ในตาราง countries 
+
 ## เริ่มใช้งาน
 
 ต้องมี Docker Desktop ที่เปิด Linux containers และ Docker Compose v2
