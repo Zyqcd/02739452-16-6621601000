@@ -1,0 +1,5 @@
+FROM python:3.11-slim
+WORKDIR /app
+RUN pip install --no-cache-dir streamlit==1.43.2 pandas==2.2.3 plotly==6.0.1 psycopg2-binary==2.9.10
+COPY web/ /app/
+CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0"]
