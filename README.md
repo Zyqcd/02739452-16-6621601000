@@ -92,7 +92,7 @@ docker compose exec airflow-scheduler airflow dags trigger country_comparison
 - ห้าม commit `.env` และนับเฉพาะ commit ก่อน 16:00 น.
 
 Repo: https://github.com/Zyqcd/02739452-16-6621601000
-ไฟล์สรุป: `output/pdf/16_6621601000_summary.pdf`
+ผู้จัดทำจะจัดทำ PDF สรุปเอง โดยใช้ภาพจริงใน `evidence/`
 
 ## ผู้จัดทำ
 

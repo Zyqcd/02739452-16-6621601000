@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 logs/
 tmp/
+output/pdf/
+tools/create_summary.py
