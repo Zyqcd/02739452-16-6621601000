@@ -1,6 +1,6 @@
 # Country Atlas: ประชากรและพื้นที่ของประเทศทั่วโลก
 
-โครงงานรายวิชา 02739452 รวมข้อมูลจาก GeoNames, Worldometer และ World Bank
+ข้อสอบปลายภาครายวิชา 02739452 รวมข้อมูลจาก GeoNames, Worldometer และ World Bank
 ด้วย Apache Airflow ลง PostgreSQL และอ่านฐานข้อมูลโดยตรงด้วยเว็บ Streamlit
 
 ## เริ่มใช้งาน
@@ -81,18 +81,6 @@ docker compose exec airflow-scheduler airflow dags trigger country_comparison
 อย่ารัน `airflow dags test` พร้อม scheduler เพราะอาจแย่งกันทำ task ใน run เดียวกัน
 เก็บภาพ Graph view, Grid view และเว็บจริง ห้ามใช้ภาพจำลองแทนผลการรัน
 
-## การส่งงาน
-
-- ต้องตรวจและจองขอบเขตในกลุ่มไลน์ก่อน (แหล่งซ้ำได้ ขอบเขตซ้ำไม่ได้)
-- public GitHub repo ชื่อ `02739452-ลำดับที่-รหัสนิสิต`
-- PDF ไม่เกิน 3 หน้า ชื่อ `ลำดับที่_รหัสนิสิต_summary.pdf` ระบุ repo และภาพจริง
-- อธิบายปัญหาจริง >=2 ข้อ: อาการ การหาสาเหตุ วิธีแก้
-- อธิบายการแบ่งเวลา งานที่ตัดออก และเหตุผล
-- ส่งลิงก์และ PDF ใน Classroom ภายใน 16:00 น. ตามโจทย์
-- ห้าม commit `.env` และนับเฉพาะ commit ก่อน 16:00 น.
-
-Repo: https://github.com/Zyqcd/02739452-16-6621601000
-ผู้จัดทำจะจัดทำ PDF สรุปเอง โดยใช้ภาพจริงที่เก็บไว้ในเครื่อง
 
 ## ผู้จัดทำ
 
