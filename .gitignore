@@ -5,3 +5,4 @@ logs/
 tmp/
 output/pdf/
 tools/create_summary.py
+evidence/
